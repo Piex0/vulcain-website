@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+header{
+    background-image: url(./Image/VLC\ 12.png);
+    height: 113vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 43px ;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border: 1px solid red;
+    margin: 30px;
+    font-weight: 500;
+    transition: 0.9s ease;
+}
+
+ul li a:hover{
+    background-color: red;
+    color: white;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+}
+
+.titre2{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre2 h1{
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.bouton{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a{
+    color: red;
+    text-decoration: none;
+    border: 1px solid red;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+}
+
+.btn{
+    transition: 0.9s ease;
+}
+.btn:hover{
+    background-color: red;
+    color: #fff;
+}
